@@ -1,0 +1,122 @@
+* {
+    font-family: "Helvetica Neue";
+    outline: none;
+}
+
+.fundoPreto {
+    background-color: transparent;
+    border-radius: 48px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    width: 106px;
+    height: 48px;
+    border-width: 0px;
+}
+
+.fundoPreto:hover {
+    background-color: #EAEAEA;
+}
+
+.fundoPreto:focus {
+    color: white;
+    background-color: black;
+}
+
+.fundoPretoMenor {
+    width: 78px;
+    height: 48px;
+}
+
+.search {
+    font-size: 16px;
+    background-color: #EAEAEA;
+    width: 900px;
+    height: 48px;
+    border-radius: 48px;
+    border-width: 0px;
+    padding: 0px 20px; /* 1 parametro cima baixo, 2 parametro laterais */
+}                      /* caso fossem 4, 1 cima, 2 direita, 3 baixo, 4 esquerda */
+
+.search:focus {
+    border: solid 4px #0084ff85;    
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 5px 16px 13px;
+}
+
+.pinterest {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+}
+
+.pinterest:hover {
+    background-color: #EAEAEA;
+}
+
+.pinterestLogo {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+}
+
+.notifications {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+}
+
+.notifications:hover {
+    background-color: #EAEAEA;
+}
+
+.notifications:focus {
+    border: solid 4px #0084ff85;
+}
+
+.notificationsImg {
+    width: 28px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.inboxImg {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.menu:hover {
+    background-color: #EAEAEA;
+}
+
+.menuImg {
+    width: 20px;
+    height: 11px;
+    margin: 0 auto;
+}
+
+.leftMargin {
+    margin: 0 0 0 10px;
+}
+
+.rightMargin {
+    margin: 0 10px 0 0;
+}
